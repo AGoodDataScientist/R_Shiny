@@ -1,6 +1,6 @@
 library(shiny)
 ui <- fluidPage(
-  headerPanel("Example for Reactive"),
+  headerPanel("Example for EventReactive"),
   mainPanel(
     textInput(inputId = "textinput",label = "Enter Text Here",placeholder = "Please enter some text"),
     actionButton(inputId = "acbutton",label = "Update"),
