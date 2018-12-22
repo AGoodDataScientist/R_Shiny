@@ -14,4 +14,5 @@ server <- function(input,output,session){
       geom_point()
   })
 }
+
 shinyApp(ui,server)
