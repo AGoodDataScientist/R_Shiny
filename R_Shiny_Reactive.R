@@ -7,6 +7,7 @@ ui <- fluidPage(
   )
 )
 server <- function(input,output,session){
+  
     text_reacttives <- reactive({
       input$textinput
     })
